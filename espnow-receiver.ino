@@ -156,7 +156,7 @@ Arduino setup
 *****************************/
 
 void setup() {
-  SLIPSerial.begin(9600);
+  SLIPSerial.begin(115200);
 
   if (!connectToWiFi()) return;
 
